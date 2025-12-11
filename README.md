@@ -8,10 +8,39 @@ This dashboard solves these issues by integrating SQL-based data extraction, str
 
 The result:
 
-- ✔ Centralized KPI monitoring
-- ✔ Cleaner, validated transactional data
-- ✔ Automated daily reporting
-- ✔ Faster identification of anomalies and payment failures
+-  Centralized KPI monitoring
+-  Cleaner, validated transactional data
+-  Automated daily reporting
+-  Faster identification of anomalies and payment failures
+
+
+# 🎯 Objectives
+
+- Build a unified analytics dashboard for bookings and payments
+- Automate recurring financial reporting
+- Improve data accuracy and reduce manual spreadsheet work
+- Identify patterns in revenue, booking trends, and payment behavior
+- Support management with actionable and real-time insight
+
+# 📚 Dataset Description
+| Column Name     | Description                                                                                                            |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **addssr**      | Additional services purchased (e.g., baggage, meal, seat). Indicates whether extra services were added to the booking. |
+| **bank**        | The bank or payment provider used for the transaction.                                                                 |
+| **booking**     | Booking identifier or booking count associated with the record.                                                        |
+| **channel**     | Source of the booking (e.g., Mobile App, Website, Partner Channel).                                                    |
+| **date**        | Transaction or booking date. Used for trend and time-series analysis.                                                  |
+| **destination** | Arrival airport or final destination of the route.                                                                     |
+| **eticket**     | E-ticket number associated with the booking.                                                                           |
+| **origin**      | Departure airport or origin of the route.                                                                              |
+| **paxtype**     | Passenger type (e.g., Adult, Child, Infant).                                                                           |
+| **payment**     | Payment amount or indicator of successful payment (depending on data structure).                                       |
+| **paymenttype** | Method used to pay (e.g., Virtual Account, Credit Card, E-Wallet).                                                     |
+| **promocode**   | Promo code applied to the booking, if any.                                                                             |
+| **revenue**     | Revenue generated from the booking or payment.                                                                         |
+| **route**       | Complete flight route (e.g., CGK–DPS).                                                                                 |
+| **ssrtype**     | Type of Special Service Request (e.g., extra baggage, wheelchair).                                                     |
+| **USEPROMO**    | Indicates whether a promo was used (Yes/No or binary flag).                                                            |
 
 # Projects
 1. [IKN PROPERTY](https://github.com/FTDS-assignment-bay/p2-final-project-ftds-026-rmt-group-001/tree/main)
