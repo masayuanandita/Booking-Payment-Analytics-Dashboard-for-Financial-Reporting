@@ -46,20 +46,25 @@ The result:
 # 📊 Dashboard Development (Looker Studio)
 
 The dashboard includes:
+
 Page 1 — BOOKING AND TICKETING
-- Total Revenue
-- Total Bookings
-- Successful Payments
-- Week-over-week Revenue Change
+This page focuses on understanding booking patterns, route performance, ancillary service behavior, and overall transaction volume.
+
+Primary Insights
+- Booking distribution between Domestic (50.31%) and International (49.69%) is well-balanced.
+- 59.83% of bookings include SSR, indicating strong ancillary revenue potential.
+- Seat selection and baggage are the top SSR contributors, supporting upsell strategies.
+- Monthly booking trends show clear seasonality, useful for forecasting and resource planning.
 
 Page 2 — Payment Summary 
-- Daily booking trends
-- Booking value distribution
+This provides financial visibility into payment activity, promo effectiveness, bank performance, and payment method usage. 
 
-Channel contribution
-# Projects
-1. [IKN PROPERTY](https://github.com/FTDS-assignment-bay/p2-final-project-ftds-026-rmt-group-001/tree/main)
-    - **Description:** The goal of this project is to make a prediction model that will tell users the prices of their house if the user were to sell their house or property in Ibukota Nusantara (IKN).
-    - **Technologies Used:** The notebooks use Random Forest, Light GBM, XGBoost, Decision Tree, Lasso Regression, Gradient Boosting Regression.
-    - **Results:** A regression model that can predict the house prices of IKN and its surrounding area. The model chosen was XGBoost with the final result of 83% R2 accuracy–with the lowest error margin of about 5%.
-    - **Deployment:** Check huggingface page to real experience [here](https://huggingface.co/spaces/xyncz/IKN-Price-Prediction)
+Primary Insights
+- Several promo codes contribute significantly to transaction volume, with GOTF leading at 170 rb.
+- Daily payment activity shows high variability, useful for detecting payment system anomalies or traffic peaks.
+- Bank Transfer and Credit/Debit Cards are the most frequently used payment methods.
+- High bank segmentation allows identification of bank-level issues or settlements delays.
+- Payment revenue reaches 2.1 T, confirming the business scale and demand consistency.
+
+🔗 Dashboard
+[https://lookerstudio.google.com/reporting/0176be82-8db4-4ac7-823e-daa84fe59774]
