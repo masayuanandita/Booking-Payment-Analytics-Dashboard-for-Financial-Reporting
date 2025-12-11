@@ -42,6 +42,21 @@ The result:
 | **ssrtype**     | Type of Special Service Request (e.g., extra baggage, wheelchair).                                                     |
 | **USEPROMO**    | Indicates whether a promo was used (Yes/No or binary flag).                                                            |
 
+
+# 📊 Dashboard Development (Looker Studio)
+
+The dashboard includes:
+Page 1 — BOOKING AND TICKETING
+- Total Revenue
+- Total Bookings
+- Successful Payments
+- Week-over-week Revenue Change
+
+Page 2 — Payment Summary 
+- Daily booking trends
+- Booking value distribution
+
+Channel contribution
 # Projects
 1. [IKN PROPERTY](https://github.com/FTDS-assignment-bay/p2-final-project-ftds-026-rmt-group-001/tree/main)
     - **Description:** The goal of this project is to make a prediction model that will tell users the prices of their house if the user were to sell their house or property in Ibukota Nusantara (IKN).
