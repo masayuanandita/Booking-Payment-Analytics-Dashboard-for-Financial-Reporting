@@ -6,12 +6,12 @@ The dashboard consolidates transactional data into a single analytical view, aut
 Traditional booking and payment analysis relied heavily on manual spreadsheets, resulting in delayed insights and inconsistent financial reporting.
 This dashboard solves these issues by integrating SQL-based data extraction, structured data modeling, and automated visualization in Looker Studio.
 
-**The result:**
+The result:
 
-✔ Centralized KPI monitoring
-✔ Cleaner, validated transactional data
-✔ Automated daily reporting
-✔ Faster identification of anomalies and payment failures
+- ✔ Centralized KPI monitoring
+- ✔ Cleaner, validated transactional data
+- ✔ Automated daily reporting
+- ✔ Faster identification of anomalies and payment failures
 
 # Projects
 1. [IKN PROPERTY](https://github.com/FTDS-assignment-bay/p2-final-project-ftds-026-rmt-group-001/tree/main)
