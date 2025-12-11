@@ -2,7 +2,7 @@
 This project delivers an end-to-end Booking & Payment Analytics Dashboard designed to provide finance and operational teams with real-time visibility into booking volumes, payment performance, and revenue trends.
 The dashboard consolidates transactional data into a single analytical view, automating reporting processes and enabling faster business decision-making.
 
-#🚀 Project Overview
+# 🚀 Project Overview
 Traditional booking and payment analysis relied heavily on manual spreadsheets, resulting in delayed insights and inconsistent financial reporting.
 This dashboard solves these issues by integrating SQL-based data extraction, structured data modeling, and automated visualization in Looker Studio.
 
